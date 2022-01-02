@@ -1,0 +1,11 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: jiangjf-hystrix
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "localhost"
+
+
+#监控http://localhost:8200/hystrix.stream

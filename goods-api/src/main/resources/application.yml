@@ -1,0 +1,11 @@
+server:
+  port: 8600
+
+spring:
+  application:
+    name: jiangjf-goods-api
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7000/eureka

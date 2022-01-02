@@ -1,0 +1,16 @@
+server:
+  port: 8003
+
+spring:
+  application:
+    name: jiangjf-order
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://127.0.0.1:3306/wfw?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7000/eureka
